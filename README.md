@@ -47,7 +47,7 @@ Chess Playing Bot is an Autonomous Bot which
 * Aluminium Square Pipe side=1.6cm, length=100cm
 * Plywood 90cm x 90cm x 0.6cm
 * PVC pipe 120cm long and diameter 2.6cm
-* 3D printed parts ([SLDPRT](https://grabcad.com/library/chess-playing-bot-1) / [STL](STL%20files%20of%203D%20printed%20parts))
+* 3D printed parts ([SLDPRT](https://grabcad.com/library/chess-playing-bot-1)/[STL](STL%20files%20of%203D%20printed%20parts))
 
 ## <a name="working"></a>WORKING
 1) As soon as the code is run, the Pi camera shows a live video of the chess board after warping.
