@@ -12,7 +12,7 @@ Chess Playing Bot is an Autonomous Bot which
 	executes the move using Arduino controlled Robotic Arm made up of servo motors and 3D printed parts.
 
 ## TEAM MEMBERS
-1. [Rohit Jethani](https://github.com/rohitjethani)
+1. <a href="https://github.com/rohitjethani/" target="_blank">Rohit Jethani</a>
 2. [Himanshu Chaudhary](https://github.com/himanshuamd1)
 3. [Harsh Patel](https://github.com/harshpatel097)
 4. Mayank Sharma
