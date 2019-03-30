@@ -24,7 +24,7 @@ Chess Playing Bot is an Autonomous Bot which
 1. [Rohit Jethani](https://github.com/rohitjethani)
 2. [Himanshu Chaudhary](https://github.com/himanshuamd1)
 3. [Harsh Patel](https://github.com/harshpatel097)
-4. Mayank Sharma
+4. [Mayank Sharma](https://github.com/sharmamayank1741)
 
 ## <a name="pre-requisites"></a>PRE-REQUISITES
 ### <a name="software"></a>1. Software:
