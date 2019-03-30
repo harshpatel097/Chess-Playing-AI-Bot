@@ -10,9 +10,9 @@ Chess Playing Bot is an Autonomous Bot which
 	detects the chess piece on each square of chessboard using a trained Convolutional Neural Network (CNN), 
 	predicts the best move for computer side using Stockfish chess engine and 
 	executes the move using Arduino controlled Robotic Arm made up of servo motors and 3D printed parts.
-
-## [TEAM MEMBERS](#team-members)
-# <a name="team-members"></a>TEAM MEMBERS
+## TABLE OF CONTENTS
+* [TEAM MEMBERS](#team-members)
+## <a name="team-members"></a>TEAM MEMBERS
 1. [Rohit Jethani](https://github.com/rohitjethani)
 2. [Himanshu Chaudhary](https://github.com/himanshuamd1)
 3. [Harsh Patel](https://github.com/harshpatel097)
