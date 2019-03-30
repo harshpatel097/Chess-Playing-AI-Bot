@@ -13,9 +13,9 @@ Chess Playing Bot is an Autonomous Bot which
 ## TABLE OF CONTENTS
 - [Team Members](#team-members)
 - [Pre-Requisites](#pre-requisites)
-  1. [Software](#software)
-  2. [Hardware](#hardware)
-  3. [Design](#design)
+  - [Software](#software)
+  - [Hardware](#hardware)
+  - [Design](#design)
 - [Working](#working)
 - [Applications](#applications)
 - [Future Scope](#future-scope)
