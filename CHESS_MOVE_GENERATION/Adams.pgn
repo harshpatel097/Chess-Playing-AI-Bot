@@ -1,0 +1,21 @@
+[Event "Computer chess game"]
+[Site "LAPTOP-FQJ9F35G"]
+[Date "2019.02.06"]
+[Round "?"]
+[White "Himanshu Chaudhary"]
+[Black "SOS 5.1 for Arena"]
+[Result "*"]
+[BlackElo "2000"]
+[ECO "B20"]
+[Opening "Sicilian"]
+[Time "20:10:42"]
+[Variation "English (2.c4)"]
+[WhiteElo "2400"]
+[TimeControl "300"]
+[Termination "unterminated"]
+[PlyCount "6"]
+[WhiteType "human"]
+[BlackType "program"]
+
+1. c4 c5 2. e4 g6 3. Bd3 Nf6 {(Ng8-f6 Ng1-f3 d7-d6 Nb1-c3 Nb8-c6 Bd3-e2
+Nc6-d4 Nc3-d5 Nf6xd5 c4xd5 Nd4xe2 Qd1xe2 Bc8-g4 Qe2-c4) -0.05/14 7} *
