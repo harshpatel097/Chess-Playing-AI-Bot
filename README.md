@@ -80,8 +80,7 @@ dst = cv2.warpPerspective(img,M,(800,800))
 
 - Each of the 64 images is passed through a trained Convolutional Neural Network (CNN) to detect the piece it contains.
 	- Classification problem of 13 classes
-		- Each for black and white
-			- King, Queen, Bishop, Knight, Rook, Pawn
+		- King, Queen, Bishop, Knight, Rook, Pawn each for Black and White
 		- Empty class
 
 ## <a name="applications"></a>APPLICATIONS
