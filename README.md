@@ -60,10 +60,8 @@ pts2 = np.float32([[0,0],[0,800],[800,0],[800,800]])
 M = cv2.getPerspectiveTransform(pts1,pts2)
 dst = cv2.warpPerspective(img,M,(800,800))
 ```
-2) Pressing the Spacebar captures the current state of the chessboard, crops it into 64 smaller images and saves them.
+2) Pressing the Spacebar captures the current state of the chessboard (800 x 800 RGB image), crops it into 64 smaller (100 x 100) images corresponding to individual squares of the board and saves them in a folder.
 
-Captured RGB image (800 x 800)
-This is divided into 64 smaller RGB images (100 x 100)
 3) The trained CNN detects the piece in each of the 64 squares and a 8 x 8 array of the chess board is generated.
 4) This array is then converted to a FEN file.
 5) The Chess library of Python is used to convert the FEN to board representation.
