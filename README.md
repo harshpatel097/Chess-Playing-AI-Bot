@@ -51,7 +51,19 @@ Chess Playing Bot is an Autonomous Bot which
 
 ## <a name="working"></a>WORKING
 1) As soon as the code is run, the Pi camera shows a live video of the chess board after warping.
+
+Resolution of video: 800 x 800 pixels.
+For warping, we calculated the Transformation matrix by using matplotlib.pyplot as it gives the coordinates of all pixels. When the (x,y) coordinates of all the four corners are obtained, it can entered in pts1 in the following code:
+```python
+pts1 = np.float32([[490,62],[374,707],[106,332],[753,446]]) #this will change according to position and orientation of board
+pts2 = np.float32([[0,0],[0,800],[800,0],[800,800]])
+M = cv2.getPerspectiveTransform(pts1,pts2)
+dst = cv2.warpPerspective(img,M,(800,800))
+```
 2) Pressing the Spacebar captures the current state of the chessboard, crops it into 64 smaller images and saves them.
+
+Captured RGB image (800 x 800)
+This is divided into 64 smaller RGB images (100 x 100)
 3) The trained CNN detects the piece in each of the 64 squares and a 8 x 8 array of the chess board is generated.
 4) This array is then converted to a FEN file.
 5) The Chess library of Python is used to convert the FEN to board representation.
@@ -73,5 +85,11 @@ Chess Playing Bot is an Autonomous Bot which
 		- Each for black and white
 			- King, Queen, Bishop, Knight, Rook, Pawn
 		- Empty class
+
 ## <a name="applications"></a>APPLICATIONS
+1. It can be used by beginners for learning and practicing the game.
+2. Instead of playing chess on a mobile or computer, we can play it using an actual chess set.
+
 ## <a name="future-scope"></a>FUTURE SCOPE
+1. The accuracy and repeatability of robotic arm can be improved by using better (and costlier) servo motors, replacing them with stepper motors or using encoders.
+2. The accuracy of piece detection greatly depends on the lighting conditions change. We can use floodlights to solve this. Also we can place the camera at a different place to capture the image from a different angle to improve accuracy.
