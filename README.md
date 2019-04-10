@@ -44,6 +44,8 @@ Chess Playing Bot is an Autonomous Bot which
 * TowerPro SG90 servo motor
 * Small Breadboard
 
+* 3D Printed Parts ([STL](STL%20files%20of%203D%20printed%20parts)/[SLDPRT](https://grabcad.com/library/chess-playing-bot-1 ))
+
 ## <a name="working"></a>WORKING
 1) As soon as the code is run, the Pi camera shows a live video of the chess board after warping.
 
@@ -72,7 +74,7 @@ Piece recognition is classification problem of 13 classes.
 10) After every move by the human side, steps 2 to 9 are repeated.
 
 ## <a name="design"></a> DESIGN:
-The Standard Chessboard (17" x 17") is fixed on a Plywood (3ft x 3ft x 0.25").
+The Standard Tournament Size Chessboard (17" x 17") is fixed on a Plywood (3ft x 3ft x 0.25").
 
 The camera stand consists of
  * PVC pipe (120cm long and diameter 2.6cm)
@@ -82,8 +84,7 @@ The camera stand consists of
 
 Instead of the conventional x-y coordinate system, we decided to try a different type of robotic arm called [SCARA](https://en.wikipedia.org/wiki/SCARA). SCARA was chosen as it is relatively easier to construct.
 SCARA can be co-related with a human arm with two joints- shoulder and elbow which help in motion along in XY plane.
-The Arm is desig
-Aluminium Square Pipe side=1.6cm, length=100cm
+The Arm comprises of Aluminium Square Pipe (side=1.6cm, length=100cm) and 18 3D printed parts.
 
 ## <a name="applications"></a>APPLICATIONS
 1. It can be used by beginners for learning and practicing the game.
