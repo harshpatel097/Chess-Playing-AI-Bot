@@ -82,9 +82,12 @@ The camera stand consists of
  * 3D printed pipe-ply and pipe-camera joints
 
 
-Instead of the conventional x-y coordinate system, we decided to try a different type of robotic arm called [SCARA](https://en.wikipedia.org/wiki/SCARA). SCARA was chosen as it is relatively easier to construct.
+Instead of the conventional x-y coordinate system, we decided to try a different type of robotic arm called [SCARA](https://en.wikipedia.org/wiki/SCARA).
+SCARA was chosen as it is relatively easier to construct.
 SCARA can be co-related with a human arm with two joints- shoulder and elbow which help in motion along in XY plane.
+
 The Arm comprises of Aluminium Square Pipe (side=1.6cm, length=100cm), four servo motors (with attachments) and eighteen 3D printed parts.
+
 The stepwise assembly of the robotic arm can be found in this [video].
 
 ## <a name="applications"></a>APPLICATIONS
