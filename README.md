@@ -88,7 +88,8 @@ SCARA can be co-related with a human arm with two joints- shoulder and elbow whi
 
 The Arm comprises of Aluminium Square Pipe (side=1.6cm, length=100cm), four servo motors (with attachments) and eighteen 3D printed parts.
 
-<img src="3D_Printed_Parts.jpg"/>
+<img src="Images/3D_Printed_Parts.jpg"/>
+<img src="Images/Base.jpg"/>
 
 The stepwise assembly of the robotic arm can be found in this [video].
 
