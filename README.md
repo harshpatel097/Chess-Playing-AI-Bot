@@ -72,10 +72,15 @@ Sample FEN file (representation of chess board at the beginning)
 rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR
 ```
 **5)** The Chess library of Python is used to convert the FEN to board representation.
+
 **6)** The board information is then given to Stockfish which gives the list of all legal moves along with their respective scores.
+
 **7)** The best possible move is selected according to the score and is sent to Arduino via Serial Communication.
+
 **8)** The Arduino code then processes the initial and final squares and accordingly gives the values of angles in degrees to the servo motors.
+
 **9)** Finally the servos execute the command and the move is made.
+
 **10)** After every move by the human side, steps 2 to 9 are repeated.
 
 ## <a name="design"></a> DESIGN:
