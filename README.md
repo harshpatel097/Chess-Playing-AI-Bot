@@ -90,7 +90,7 @@ The Arm comprises of Aluminium Square Pipe (side=1.6cm, length=100cm), four serv
 
 <img src="Images/3D_Printed_Parts.jpg"/>
 
-! <img src="Images/Base.jpg"/>  ! <img src="Images/elbow_motor_mount.jpg"/> 
+<img src="Images/Base.jpg"/><img src="Images/elbow_motor_mount.jpg"/> 
 
 The stepwise assembly of the robotic arm can be found in this [video].
 
